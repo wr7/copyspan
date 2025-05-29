@@ -1,0 +1,15 @@
+[package]
+name = "copyspan"
+version = "0.1.0"
+edition = "2024"
+license = "MIT-0 OR 0BSD"
+description = "An alternative to `Range<T>` that has a defined memory layout and implements `Copy`"
+repository = "https://github.com/wr7/copyspan"
+categories = ["data-structures"]
+
+[features]
+alloc = []
+
+default = ["alloc"]
+
+[dependencies]
